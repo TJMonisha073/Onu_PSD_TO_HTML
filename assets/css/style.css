@@ -1,0 +1,21 @@
+/* Common Code Start */
+:root {
+    --brand-color: #87d37c;
+    --light-color: #fff;
+    --dark-color: #000;
+    --soft-dark: #39393a;
+    --soft-color: #e1e1e1;
+}
+/* Common Code End */
+/* Navbar Section Start */
+.nav-link {
+    color: var(--soft-dark);
+    text-transform: uppercase;
+}
+.nav-link:focus, .nav-link:hover {
+    color: var(--brand-color);
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--brand-color);
+}
+/* Navbar Section End */
