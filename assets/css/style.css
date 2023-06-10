@@ -19,3 +19,9 @@
     color: var(--brand-color);
 }
 /* Navbar Section End */
+/* Banner Section Start */
+.banner-section {
+    background: url(../photos/banner.jpg) no-repeat;
+    height: 600px;
+}
+/* Banner Section End */
