@@ -1,3 +1,5 @@
+/* Extra Small To Medium */
+
 @media (min-width: 0px) and (max-width: 991px) {
     /* Navbar Section Start */
     .navbar {
@@ -14,5 +16,18 @@
         margin-left: auto;
     }
     /* Navbar Section End */
-    
+    /* about us section start */
+    .content-item h3 {
+        font-size: 16px;
+    }
+    /* about us section end  */
 } 
+
+
+/* Medium To Large */
+
+@media (min-width: 991px) and (max-width: 1200px) {
+    .content-item h3 {
+        font-size: 20px;
+    }
+}

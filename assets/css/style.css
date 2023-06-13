@@ -9,7 +9,7 @@
 }
 
 .container {
-    min-width: 300px;
+    min-width: 400px; 
     max-width: 1200px;
 }
  
@@ -25,7 +25,7 @@
         /* 2nd way start  */
 header {
     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) ,url(../photos/banner.jpg) no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
 }
         /* 2nd way end  */
 /* Navbar Section Start */
@@ -70,3 +70,17 @@ header {
 
 /* Banner Section End */
 /* Header Section End */
+/* About Us Section Start */
+
+.content-item {
+    cursor: pointer;
+}
+.content-item i,
+.content-item h3 {
+    transition: var(--transition);
+}
+.content-item:hover i,
+.content-item:hover h3 {
+    color: var(--brand-color);
+}
+/* About Us Section End */
