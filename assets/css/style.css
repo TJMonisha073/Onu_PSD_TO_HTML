@@ -194,10 +194,14 @@ header {
 .pricing-section .content-item .content-header {
     border: 4px solid var(--light-color);
     border-radius: 50%;
-    width: 90%;
-    padding: 25px 0px;
+    width: 160px;
+    height: 160px;
+    /* padding: 25px 0px; */
     margin: 0px auto 20px auto;
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .pricing-section .content-item .content-header h3 small {
     font-size: 1rem;
